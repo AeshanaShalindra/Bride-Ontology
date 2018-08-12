@@ -24,6 +24,7 @@
     <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasCaste -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasCaste">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isCasteOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -36,6 +37,7 @@
     <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasDegree -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasDegree">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isDegreeOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -48,6 +50,7 @@
     <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasMaritalStatus -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasMaritalStatus">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isMaritalStatusOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -60,6 +63,7 @@
     <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isOccupationOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -72,6 +76,7 @@
     <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasRace -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasRace">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isRaceOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -84,6 +89,7 @@
     <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasReligion -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasReligion">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isReligionOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -96,6 +102,7 @@
     <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasSchool -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasSchool">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isSchoolOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -108,6 +115,7 @@
     <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasSkinTone -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasSkinTone">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isSkinToneOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -117,10 +125,73 @@
     
 
 
-    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isHeightOf -->
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isCasteOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isHeightOf">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isCasteOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideCaste"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isDegreeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isDegreeOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideDegree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isMaritalStatusOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isMaritalStatusOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideMaritalStatus"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isOccupationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isOccupationOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideOccupation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isRaceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isRaceOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideRace"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isReligionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isReligionOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideReligion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isSchoolOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isSchoolOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideSchool"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isSkinToneOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#isSkinToneOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideSkinTone"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
     </owl:ObjectProperty>
     
@@ -364,114 +435,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excelent_Kandiyan_bride -->
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excellent_colombo_bride -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excelent_Kandiyan_bride">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasCaste"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bathgama"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasCaste"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Berava"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasCaste"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Deva"/>
-                            </owl:Restriction>
-                        </owl:unionOf>
-                    </owl:Class>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasDegree"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#MPhil"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasDegree"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#MScGraduate"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasDegree"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#PhdGraduate"/>
-                            </owl:Restriction>
-                        </owl:unionOf>
-                    </owl:Class>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Doctor"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#ElectricalEngineer"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#ElectronicEngineer"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#ExecutiveOfficer"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#FamilyOwnedBusiness"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Lawyer"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#ManagementOfficer"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
-                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#SoftwareEngineer"/>
-                            </owl:Restriction>
-                        </owl:unionOf>
-                    </owl:Class>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasMaritalStatus"/>
-                        <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#NeverMarried"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasSchool"/>
-                        <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#HighlyPopularSchool"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#height"/>
-                        <owl:someValuesFrom>
-                            <rdfs:Datatype>
-                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-                                <owl:withRestrictions rdf:parseType="Collection">
-                                    <rdf:Description>
-                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</xsd:minInclusive>
-                                    </rdf:Description>
-                                </owl:withRestrictions>
-                            </rdfs:Datatype>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
-        <rdfs:comment>Brides with good educational qualifications, considerably sufficient dowrys, has a good occupation with good family background coming from good schools</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excelent_colombo_bride -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excelent_colombo_bride">
+    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excellent_colombo_bride">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -580,9 +546,114 @@
     
 
 
-    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excelent_southern_bride -->
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excellent_kandyan_bride -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excelent_southern_bride">
+    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excellent_kandyan_bride">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasCaste"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bathgama"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasCaste"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Berava"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasCaste"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Deva"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasDegree"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#MPhil"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasDegree"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#MScGraduate"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasDegree"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#PhdGraduate"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Doctor"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#ElectricalEngineer"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#ElectronicEngineer"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#ExecutiveOfficer"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#FamilyOwnedBusiness"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Lawyer"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#ManagementOfficer"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasOccupation"/>
+                                <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#SoftwareEngineer"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasMaritalStatus"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#NeverMarried"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#hasSchool"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#HighlyPopularSchool"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#height"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</xsd:minInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Bride"/>
+        <rdfs:comment>Brides with good educational qualifications, considerably sufficient dowrys, has a good occupation with good family background coming from good schools</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excellent_southern_bride -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Excellent_southern_bride">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -708,9 +779,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Kandiyan_bride -->
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Kandyan -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Kandiyan_bride">
+    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Kandyan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideCaste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Kandyan_bride -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Kandyan_bride">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -727,14 +806,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Kandyan -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Kandyan">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#BrideCaste"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#LawSector -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#LawSector">
@@ -743,9 +814,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Normal_Kandiyan_bride -->
+    <!-- http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Normal_Kandyan_bride -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Normal_Kandiyan_bride">
+    <owl:Class rdf:about="http://www.semanticweb.org/aeshana/ontologies/2018/7/Bride#Normal_Kandyan_bride">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
